@@ -22,12 +22,9 @@ class RuStyleServiceProvider extends ServiceProvider
                 'ru-style'
             );
         }
-    }
-    
-    public function handle()
-    {
+	
 	    Admin::booting(function () {
-	    	
+		
 		    $baseCss = Admin::baseCss();
 		    $key = array_search('vendor/laravel-admin/google-fonts/fonts.css', $baseCss);
 		    if ($key !== false) {
