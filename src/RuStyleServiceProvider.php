@@ -1,6 +1,6 @@
 <?php
 
-namespace freecod\LaravelAdminExt\RuStyle;
+namespace Freecod\LaravelAdminExt\RuStyle;
 
 use Encore\Admin\Admin;
 use Illuminate\Support\ServiceProvider;
